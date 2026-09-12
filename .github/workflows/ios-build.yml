@@ -25,4 +25,13 @@ jobs:
           -scheme AegisCompanion
           -sdk iphonesimulator
           -destination 'platform=iOS Simulator,name=iPhone 16'
+          -derivedDataPath build
           CODE_SIGNING_ALLOWED=NO
+      - name: Package simulator app
+        working-directory: ios
+        run: ditto -c -k --sequesterRsrc --keepParent build/Build/Products/Debug-iphonesimulator/AegisCompanion.app AegisCompanion-Simulator.zip
+      - name: Upload simulator app
+        uses: actions/upload-artifact@v4
+        with:
+          name: AegisCompanion-Simulator
+          path: ios/AegisCompanion-Simulator.zip
