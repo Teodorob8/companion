@@ -1,0 +1,168 @@
+{
+  "project": "Aegis Companion",
+  "recovery_version": "0.1.0",
+  "status": "RECONSTRUCTED_FOUNDATION",
+  "live_authority": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 84,
+      "sha256": "f3c4aca6318fb700ffa12d2e30471c94a15f13c5ef0ad3aaaccc35ed624dc484"
+    },
+    {
+      "path": "README.md",
+      "size": 1210,
+      "sha256": "86244d3afd8ea667de7c08d643bb70a5dc06d25a8d0427be614aaadbc916586a"
+    },
+    {
+      "path": "bridge/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "bridge/aegis_companion/__init__.py",
+      "size": 32,
+      "sha256": "e82f6a7377ffd27d59395db972be5d652f346c77f0e8b8363587e7f0dc77c5cd"
+    },
+    {
+      "path": "bridge/aegis_companion/authority.py",
+      "size": 708,
+      "sha256": "87cbeab9d3c8c4b68b67926de37c91e2ee72f598fdc539814e62871970272a41"
+    },
+    {
+      "path": "bridge/aegis_companion/classifier.py",
+      "size": 775,
+      "sha256": "a0a1d05ea01500302bc7d2e03ca2a39f2f835d8b8bbba48bd305ace66700df98"
+    },
+    {
+      "path": "bridge/aegis_companion/evidence.py",
+      "size": 868,
+      "sha256": "6d7ca7d1c326a49bbc539942e1f3d4a6e89ae136b5ee81aae30db870e03e82f8"
+    },
+    {
+      "path": "bridge/aegis_companion/idempotency.py",
+      "size": 585,
+      "sha256": "b08c514e6a1a1ef7523a2227e1cd7b963a086a77f56a4ea1f3e9c51d59ae128d"
+    },
+    {
+      "path": "bridge/aegis_companion/main.py",
+      "size": 1829,
+      "sha256": "e5fa710d0f0ffda13d9011628fb502e8cf73ee2bbaf90e50295293c3a79d7d42"
+    },
+    {
+      "path": "bridge/aegis_companion/models.py",
+      "size": 1495,
+      "sha256": "184c9b05f0ed0e9a5a5ccccdee6dc0aab03d42c91adf528055e4e627d21a7a14"
+    },
+    {
+      "path": "bridge/aegis_companion/repair.py",
+      "size": 1126,
+      "sha256": "8ffcab6de8ed55f25d7020992902081523102ca20d3c3f3725ca0330c080d274"
+    },
+    {
+      "path": "bridge/aegis_companion/retry.py",
+      "size": 423,
+      "sha256": "b6091faa6e604cf5ec0006d885f4b559c475257d7bf2316c6d925c4d8e5c5c0f"
+    },
+    {
+      "path": "bridge/requirements.txt",
+      "size": 90,
+      "sha256": "cdb4b74a37396f1941b84f66a2648e140bd2422f62cb97fd2dc8102f061c35d9"
+    },
+    {
+      "path": "bridge/tests/test_api.py",
+      "size": 695,
+      "sha256": "77dffc1a698f01ba9f202474a09f0402de956cc2107080c238581af9f219a045"
+    },
+    {
+      "path": "bridge/tests/test_authority.py",
+      "size": 483,
+      "sha256": "16196e5d01ab0daad85a2035326abfe003cea2855d7e290b708666e3e08eb7b7"
+    },
+    {
+      "path": "bridge/tests/test_idempotency.py",
+      "size": 210,
+      "sha256": "e3e3ccfec600a9038f4c50bde9795b04c0d013a25f5b133eb97f3fea410dda46"
+    },
+    {
+      "path": "bridge/tests/test_repair.py",
+      "size": 459,
+      "sha256": "f534103b95d564776e293b288c119a42ce94363f2211326fc67daed79fa4b089"
+    },
+    {
+      "path": "contracts/diagnostic-record.schema.json",
+      "size": 1211,
+      "sha256": "20071db26d89c7d4c2f401a12489099e19f7793d2b0dfb03fcfc0c7728c240bc"
+    },
+    {
+      "path": "contracts/event-envelope.schema.json",
+      "size": 1043,
+      "sha256": "e44638782c21097f68a4b567efecd9b7682781217c894586ad219fd549d25f33"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "size": 568,
+      "sha256": "63784a0292eebc56911a83489c29f1e304f6b76ac0802c7a08f539c21a87f005"
+    },
+    {
+      "path": "docs/RECOVERY_STATUS.md",
+      "size": 1061,
+      "sha256": "1698bdf75b9df956f4da9fa75f3ff833238b30e3985e9176e023513417978ef7"
+    },
+    {
+      "path": "ios/AegisCompanion/App/AegisCompanionApp.swift",
+      "size": 250,
+      "sha256": "4220d177da76c99b3d8db47b297a965eadeaa816886b1d453371e7fcbf80dc9b"
+    },
+    {
+      "path": "ios/AegisCompanion/App/RootView.swift",
+      "size": 550,
+      "sha256": "eb73f6c0c71214baf653ad3d5035af1538b4d60c3ccd2f2bdf49d818404dba25"
+    },
+    {
+      "path": "ios/AegisCompanion/Core/CompanionSettings.swift",
+      "size": 245,
+      "sha256": "7b8567603487e7774d6da09d700b7bd3d00762ba695daaab6ac6e21a7ec34091"
+    },
+    {
+      "path": "ios/AegisCompanion/Features/Command/CommandView.swift",
+      "size": 825,
+      "sha256": "430b95ab628ff27a56ec4ec9fde005f1bda739de935183988bc6cc83a71fb8cc"
+    },
+    {
+      "path": "ios/AegisCompanion/Features/Dashboard/DashboardView.swift",
+      "size": 1746,
+      "sha256": "d3653f3e322ff8af787b7cd4f20c4868e2bd546f82e5d7600ab0ecdc0d1c9011"
+    },
+    {
+      "path": "ios/AegisCompanion/Features/Diagnostics/DiagnosticsView.swift",
+      "size": 942,
+      "sha256": "e676cfe4401543d2afd34b454a9e5ce5d1ebe8e5222cfc275263704f2de266ef"
+    },
+    {
+      "path": "ios/AegisCompanion/Features/Settings/SettingsView.swift",
+      "size": 1267,
+      "sha256": "e8b76c0b03b876f657000baad2835772f0c330adc641644b72ea8a662db93f9d"
+    },
+    {
+      "path": "ios/AegisCompanion/Info.plist",
+      "size": 185,
+      "sha256": "a744fc3b920ddc9ff05fb1fc5bec59a91b4ebb4e12aa1782ff3275f33db5eb1c"
+    },
+    {
+      "path": "ios/project.yml",
+      "size": 480,
+      "sha256": "ad92e73abdf45266aff2bd761bc3d5e6d8513101db2a320a938b33aca20f369b"
+    },
+    {
+      "path": "scripts/bootstrap.ps1",
+      "size": 1088,
+      "sha256": "ade87fe482b4b963df59e561bd048a3d5bbc5b4a49a3f38b6c054a957d34af59"
+    },
+    {
+      "path": "scripts/verify_foundation.py",
+      "size": 666,
+      "sha256": "d7219844624f3ec8f568d27ab77497c29f7a8b149ebc8d9b564d7600458fb911"
+    }
+  ]
+}

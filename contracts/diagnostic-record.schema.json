@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Aegis Companion Diagnostic Record",
+  "type": "object",
+  "required": [
+    "diagnostic_id",
+    "classification",
+    "timestamp",
+    "component",
+    "message",
+    "correlation_id"
+  ],
+  "properties": {
+    "diagnostic_id": {
+      "type": "string"
+    },
+    "classification": {
+      "enum": [
+        "SAFE_AUTO_FIX",
+        "NEEDS_USER_DECISION",
+        "SECURITY_BLOCKED",
+        "DATA_UNAVAILABLE",
+        "DEPENDENCY_MISSING",
+        "CONFIG_INVALID",
+        "SERVICE_DOWN",
+        "PERMISSION_DENIED",
+        "UNKNOWN"
+      ]
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "component": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "correlation_id": {
+      "type": "string"
+    },
+    "causation_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "repair_attempted": {
+      "type": "boolean"
+    },
+    "repair_result": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "evidence_path": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

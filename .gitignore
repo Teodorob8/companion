@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.pytest_cache/
+evidence/*.json
+runtime/
+.DS_Store
+*.xcuserstate
