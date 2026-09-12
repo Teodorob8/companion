@@ -1,0 +1,18 @@
+name: AegisCompanion
+options:
+  bundleIdPrefix: com.aegis
+targets:
+  AegisCompanion:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - AegisCompanion
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.aegis.companion
+      SWIFT_VERSION: 5.10
+    info:
+      path: AegisCompanion/Info.plist
+      properties:
+        UILaunchScreen: {}
+        NSLocalNetworkUsageDescription: "Aegis Companion connects to your approved local Aegis bridge."
