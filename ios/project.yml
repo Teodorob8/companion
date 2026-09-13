@@ -1,4 +1,5 @@
 name: AegisCompanion
+# Kokoro build verification trigger.
 options:
   bundleIdPrefix: com.aegis
 targets:
