@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    runs-on: macos-26
+    runs-on: macos-15
     steps:
       - uses: actions/checkout@v4
       - name: Install XcodeGen
@@ -33,7 +33,7 @@ jobs:
           -project AegisCompanion.xcodeproj
           -scheme AegisCompanion
           -sdk iphonesimulator
-          -destination 'generic/platform=iOS Simulator'
+          -destination 'platform=iOS Simulator,name=iPhone 16'
           -derivedDataPath build
           CODE_SIGNING_ALLOWED=NO
       - name: Package simulator app
