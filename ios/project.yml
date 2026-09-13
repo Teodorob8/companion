@@ -21,4 +21,4 @@ targets:
 packages:
   KokoroSwift:
     url: https://github.com/mlalma/kokoro-ios.git
-    version: 1.0.8
+    version: 1.0.2
