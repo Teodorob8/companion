@@ -2,12 +2,14 @@ import SwiftUI
 
 struct DashboardView: View {
     @EnvironmentObject var settings: CompanionSettings
+    @EnvironmentObject var voice: VoiceService
 
     var body: some View {
         NavigationStack {
             ScrollView {
                 VStack(spacing: 12) {
                     statusCard
+                    Button { voice.speak("Aegis Companion is in \(settings.mode) mode. Live order authority is disabled.", enabled: settings.voiceEnabled) } label: { Label("Read status aloud", systemImage: "speaker.wave.2.fill") }
                     panel("MARKET / OPPORTUNITIES", "Awaiting authenticated Aegis event feed")
                     panel("RISK", "No live authority • mode \(settings.mode)")
                     panel("RESEARCH", "Read-only research projection")
