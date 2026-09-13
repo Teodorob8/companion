@@ -1,4 +1,5 @@
 name: AegisCompanion
+# Build verification trigger.
 options:
   bundleIdPrefix: com.aegis
 targets:
