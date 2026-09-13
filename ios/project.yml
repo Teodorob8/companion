@@ -7,7 +7,7 @@ targets:
     platform: iOS
     deploymentTarget: "18.0"
     dependencies:
-      - package: KokoroSwift
+      - package: Kokoro
     sources:
       - AegisCompanion
     settings:
@@ -19,6 +19,6 @@ targets:
         UILaunchScreen: {}
         NSLocalNetworkUsageDescription: "Aegis Companion connects to your approved local Aegis bridge."
 packages:
-  KokoroSwift:
-    url: https://github.com/mlalma/kokoro-ios.git
-    version: 1.0.2
+  Kokoro:
+    url: https://github.com/mweinbach/kokoro-swift.git
+    version: 0.1.0
